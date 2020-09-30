@@ -1,0 +1,135 @@
+body {
+  background-color: #a2ee68;
+  font-family: "Arial", sans-serif;
+  color: black;
+}
+
+h1,
+h2 {
+  font-family: "Georgia", serif;
+}
+
+nav ul {
+  background-color: Chocolate;
+  padding: 10px;
+  border-style: solid;
+  border-color: Brown;
+  border-width: 2px;
+  border-radius: 10px;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ffffff;
+}
+
+img {
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+}
+
+img:hover {
+  border: 2px dashed #d38b58;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ffffff;
+  border-collapse: collapse;
+}
+
+tr {
+  background-color: #a0522d;
+}
+
+th,
+td {
+  vertical-align: top;
+  padding: 5px;
+  text-align: left;
+}
+
+th {
+  color: white;
+}
+
+td {
+  color: white;
+}
+
+.topDivider {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: ;
+  padding-bottom: 10px;
+}
+
+.stylishBox {
+  background-color: #ffffff;
+  color: #a0522d;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #d2691e;
+  border-radius: 10px;
+  padding: 10px;
+  width: 50%;
+}
+
+.someSpacing {
+  margin-top: 20px;
+}
+
+#coolText {
+  color: #a0522d;
+  border: 2px ridge #d2691e;
+  padding: 15px;
+  text-align: center;
+  animation-name: colorChange;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+}
+
+#frontPage {
+  background: #d2691e;
+  background: linear-gradient(#a2ee68, #baed91, #faf884, #d2691e);
+}
+
+#owl {
+  border-radius: 100%;
+  width: 100px;
+  animation-name: myFirstAnimation;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+@keyframes myFirstAnimation {
+  from {
+    width: 100px;
+  }
+  to {
+    width: 300px;
+  }
+}
+
+@keyframes colorChange {
+  0% {
+    color: #ffffff;
+  }
+  50% {
+    color: #d38b58;
+  }
+  100% {
+    color: #d2691e;
+  }
+}
