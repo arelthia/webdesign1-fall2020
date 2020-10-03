@@ -10,10 +10,10 @@ h2 {
 }
 
 nav ul {
-  background-color: Chocolate;
+  background-color: #d2691e;
   padding: 10px;
   border-style: solid;
-  border-color: Brown;
+  border-color: #a52a2a;
   border-width: 2px;
   border-radius: 10px;
 }
@@ -61,17 +61,17 @@ td {
 }
 
 th {
-  color: white;
+  color: #ffffff;
 }
 
 td {
-  color: white;
+  color: #ffffff;
 }
 
 .topDivider {
   border-bottom-style: solid;
   border-bottom-width: 2px;
-  border-bottom-color: ;
+  border-bottom-color: #ffffff;
   padding-bottom: 10px;
 }
 
