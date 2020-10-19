@@ -5,6 +5,13 @@
   border: 0;
 }
 
+/* body */
+body {
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  background-color: #fbfef9;
+}
+
 /* Gallery */
 .gallery-item {
   margin: 5px;
@@ -29,4 +36,108 @@
 .gallery .container {
   width: 850px;
   margin: 0 auto;
+}
+
+/* Header
+-----------------------------------------------------------------------------*/
+main {
+  min-height: 100%;
+}
+
+.hero {
+  background: #0e79b2;
+  margin-bottom: 2rem;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.hero img {
+  border: 3px double #191923;
+  width: 300px;
+  margin: 0 auto;
+  border-radius: 30px;
+}
+
+h1 {
+  padding-top: 50px;
+  font-size: 62px;
+  color: #fbfef9;
+}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.content {
+  padding: 0 0 100px;
+}
+
+h2 {
+  padding-top: 20px;
+  font-size: 48px;
+}
+
+section {
+  padding: 100px;
+  clear: both;
+}
+
+.info {
+  float: left;
+}
+
+.info img {
+  float: left;
+  margin-right: 40px;
+}
+
+.info p {
+  margin-top: 50px;
+  clear: right;
+  line-height: 26px;
+}
+
+.species {
+  background-color: #0e79b2;
+  color: #fbfef9;
+}
+
+.species img {
+  float: right;
+}
+
+.species ul {
+  padding-left: 20px;
+}
+
+.species li {
+  padding-top: 10px;
+}
+
+.more {
+  text-align: center;
+}
+
+.more a {
+  text-decoration: none;
+}
+
+#tribute-link {
+  background-color: #f39237;
+  color: #fbfef9;
+  padding: 30px 60px;
+  border-radius: 24px;
+  border-bottom: 4px solid #bf1363;
+}
+/* Footer
+-----------------------------------------------------------------------------*/
+footer {
+  text-align: center;
+  max-width: 100%;
+  height: 100px;
+  background: #191923;
+  color: #fbfef9;
+  position: relative;
+}
+footer p {
+  padding-top: 40px;
 }
